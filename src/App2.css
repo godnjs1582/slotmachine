@@ -1,0 +1,22 @@
+svg {
+  overflow:hidden;
+}
+.white-path {
+  fill:none;
+  stroke:#FFFFFF;
+  stroke-width:2;
+  stroke-linecap:round;
+  stroke-linejoin:round;
+  stroke-miterlimit:10;
+ }
+ @keyframes squiggle {
+   from {
+     transform: translateX(-7px)
+   }
+   to {
+     transform: translateX(0px)
+   }
+ }
+ .animate {
+   animation: squiggle 1s linear infinite;
+ }
